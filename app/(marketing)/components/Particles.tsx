@@ -29,7 +29,7 @@ export const Particles = () => {
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
         size: Math.random() * 2 + 0.5,
-        speedY: Math.random() * 1.5 + 0.5,
+        speedY: Math.random() * 0.3 + 0.4,
         speedX: Math.random() * 0.2 - 0.1,
       });
     }
@@ -40,7 +40,7 @@ export const Particles = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       particles.forEach((particle) => {
-        ctx.fillStyle = "rgba(0, 0, 0, 0.4)";
+        ctx.fillStyle = "rgba(0, 0, 0, 0.3)";
         ctx.beginPath();
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
         ctx.fill();

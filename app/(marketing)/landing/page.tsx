@@ -189,26 +189,6 @@ export default function LandingPage() {
               </div>
             </div>
 
-            {/* Stats */}
-            <div className="absolute bottom-4 left-10 flex items-center gap-3">
-              <div className="flex -space-x-2">
-                <div className="w-10 h-10 rounded-full border-2 border-white overflow-hidden">
-                  <Image src="/avatar1.jpg" alt="User" width={40} height={40} />
-                </div>
-                <div className="w-10 h-10 rounded-full border-2 border-white overflow-hidden">
-                  <Image src="/avatar2.jpg" alt="User" width={40} height={40} />
-                </div>
-                <div className="w-10 h-10 rounded-full border-2 border-white overflow-hidden">
-                  <Image src="/avatar3.jpg" alt="User" width={40} height={40} />
-                </div>
-              </div>
-              <div>
-                <span className="font-bold">120M+</span>
-                <span className="text-gray-600 ml-2">Active Listeners</span>
-              </div>
-            </div>
-
-            {/* Listen Now Widget */}
             <div className="absolute top-4 right-10 bg-white rounded-lg shadow-lg p-3">
               <div className="flex items-center gap-2">
                 <span className="text-sm font-medium">Listen Now!</span>
@@ -217,6 +197,107 @@ export default function LandingPage() {
                 <div className="h-1 w-24 bg-[#FF5B2D] rounded-full" />
                 <span className="text-xs text-gray-500">0:50/1:34</span>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Podcast Categories Section */}
+        <div className="py-32 bg-gradient-to-b from-transparent to-white/5">
+          <div className="max-w-[1400px] mx-auto px-8">
+            <h2 className="text-4xl font-bold text-center mb-20">
+              <span className="text-[#2D6B66]">Discover</span> Our Categories
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+              {/* Card Base Style - Apply to all cards */}
+              {[
+                {
+                  src: "/img.jpg",
+                  alt: "Education",
+                  tag: "Education",
+                  tagColor: "#2D6B66",
+                  title: "Higher Education Resistance to Change",
+                  desc: "From curriculum overhauls to technological advancements.",
+                },
+                {
+                  src: "/img2.jpg",
+                  alt: "Business",
+                  tag: "Business",
+                  tagColor: "#FF5B2D",
+                  title: "Exploring the Frontiers of Understanding",
+                  desc: "Tune in and elevate your understanding at the crossroads of knowledge.",
+                },
+                {
+                  src: "/img3.jpg",
+                  alt: "Technology",
+                  tag: "Technology",
+                  tagColor: "#4A90E2",
+                  title: "Future of AI & Innovation",
+                  desc: "Exploring cutting-edge tech developments and their impact.",
+                },
+                {
+                  src: "/img4.jpg",
+                  alt: "Health",
+                  tag: "Health",
+                  tagColor: "#E24A84",
+                  title: "Wellness & Mental Health",
+                  desc: "Discussions on holistic health and mental well-being.",
+                },
+                {
+                  src: "/img5.jpg",
+                  alt: "Arts",
+                  tag: "Arts",
+                  tagColor: "#9B4AE2",
+                  title: "Creative Expression",
+                  desc: "Celebrating artistic diversity and creative journeys.",
+                },
+                {
+                  src: "/img6.jpg",
+                  alt: "Culture",
+                  tag: "Culture",
+                  tagColor: "#E2864A",
+                  title: "Global Perspectives",
+                  desc: "Exploring diverse cultures and shared human experiences.",
+                },
+              ].map((card, index) => (
+                <div
+                  key={index}
+                  className="group relative overflow-hidden rounded-[49px] transition-all duration-700 hover:-translate-y-3 hover:scale-[1.02]"
+                  style={{
+                    background: "#e0e0e0",
+                    boxShadow:
+                      "28px 28px 57px #5a5a5a, -28px -28px 57px #ffffff",
+                    width: "min(100%, 520px)",
+                    margin: "0 auto",
+                  }}
+                >
+                  <div className="relative h-[320px] p-2">
+                    <div className="relative h-full w-full rounded-[42px] overflow-hidden">
+                      <Image
+                        src={card.src}
+                        alt={card.alt}
+                        fill
+                        className="object-cover transition-transform duration-700 group-hover:scale-110"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90 transition-opacity duration-700 group-hover:opacity-70" />
+                      <div className="absolute bottom-8 left-8 right-8 transform transition-all duration-700 group-hover:translate-y-[-8px]">
+                        <span
+                          className="px-4 py-2 text-white text-sm rounded-full mb-4 inline-block transition-transform duration-500 group-hover:scale-105"
+                          style={{ backgroundColor: card.tagColor }}
+                        >
+                          {card.tag}
+                        </span>
+                        <h3 className="text-2xl font-bold text-white mb-3 transition-transform duration-500 group-hover:scale-105">
+                          {card.title}
+                        </h3>
+                        <p className="text-gray-200 text-sm transform transition-all duration-700 opacity-80 group-hover:opacity-100">
+                          {card.desc}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
