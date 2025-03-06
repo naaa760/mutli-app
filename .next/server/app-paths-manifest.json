@@ -1,3 +1,6 @@
 {
-  "/(marketing)/landing/page": "app/(marketing)/landing/page.js"
+  "/(marketing)/landing/page": "app/(marketing)/landing/page.js",
+  "/(root)/page": "app/(root)/page.js",
+  "/(root)/podcasts/[podcastId]/page": "app/(root)/podcasts/[podcastId]/page.js",
+  "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js"
 }

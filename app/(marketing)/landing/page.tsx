@@ -203,16 +203,16 @@ export default function LandingPage() {
               {[
                 {
                   src: "/img.jpg",
-                  alt: "Education",
-                  tag: "Education",
+                  alt: "Music",
+                  tag: "Music",
                   tagColor: "#2D6B66",
                   title: "Higher Education Resistance to Change",
                   desc: "From curriculum overhauls to technological advancements.",
                 },
                 {
                   src: "/img2.jpg",
-                  alt: "Business",
-                  tag: "Business",
+                  alt: "Podcast",
+                  tag: "Podcast",
                   tagColor: "#FF5B2D",
                   title: "Exploring the Frontiers of Understanding",
                   desc: "Tune in and elevate your understanding at the crossroads of knowledge.",
@@ -227,24 +227,24 @@ export default function LandingPage() {
                 },
                 {
                   src: "/img4.jpg",
-                  alt: "Health",
-                  tag: "Health",
+                  alt: "Soacial life",
+                  tag: "Social life",
                   tagColor: "#E24A84",
                   title: "Wellness & Mental Health",
                   desc: "Discussions on holistic health and mental well-being.",
                 },
                 {
                   src: "/img5.jpg",
-                  alt: "Arts",
-                  tag: "Arts",
+                  alt: "Health",
+                  tag: "Health",
                   tagColor: "#9B4AE2",
                   title: "Creative Expression",
                   desc: "Celebrating artistic diversity and creative journeys.",
                 },
                 {
                   src: "/img6.jpg",
-                  alt: "Culture",
-                  tag: "Culture",
+                  alt: "Fashion",
+                  tag: "Fashion",
                   tagColor: "#E2864A",
                   title: "Global Perspectives",
                   desc: "Exploring diverse cultures and shared human experiences.",
@@ -379,7 +379,6 @@ export default function LandingPage() {
           </div>
         </div>
 
-        {/* Pricing Section */}
         <div className="py-24 relative">
           <div className="max-w-[1200px] mx-auto px-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
@@ -437,7 +436,16 @@ export default function LandingPage() {
                   key={index}
                   className={`group relative ${plan.rotate} ${plan.translateY} transition-all duration-700 hover:rotate-0`}
                 >
-                  {/* Glow Effect */}
+                  {/* Texture Overlay */}
+                  <div className="absolute inset-0 opacity-30">
+                    <Image
+                      src="/tr.jpg"
+                      alt="texture"
+                      fill
+                      className="object-cover mix-blend-overlay opacity-20"
+                    />
+                  </div>
+
                   <div
                     className={`absolute -top-20 -left-20 w-[140%] h-[140%] bg-gradient-to-b ${plan.glowColor} opacity-0 group-hover:opacity-100 transition-opacity duration-700 blur-3xl`}
                   />
@@ -445,11 +453,26 @@ export default function LandingPage() {
                   <div
                     className={`relative overflow-hidden rounded-[32px] transition-all duration-500 hover:-translate-y-2 backdrop-blur-sm border border-white/10 hover:scale-105`}
                   >
+                    <div className="absolute inset-0">
+                      <Image
+                        src="/tr.jpg"
+                        alt="texture"
+                        fill
+                        className="object-cover opacity-10 mix-blend-overlay"
+                      />
+                    </div>
+
                     <div
                       className={`absolute inset-0 bg-gradient-to-b ${plan.borderGradient} opacity-50`}
                     />
 
-                    <div className={`relative ${plan.bgColor} p-8`}>
+                    <div
+                      className={`relative ${plan.bgColor} p-8 backdrop-blur-sm`}
+                      style={{
+                        backgroundImage:
+                          "linear-gradient(to bottom right, rgba(45, 107, 102, 0.1), rgba(0, 0, 0, 0.2))",
+                      }}
+                    >
                       <div className="mb-10">
                         <div className="flex items-center gap-2 mb-2">
                           <span className="text-white/60 text-sm">★</span>
@@ -492,11 +515,18 @@ export default function LandingPage() {
                     </div>
                   </div>
 
-                  {/* Add floating animation */}
                   <div className="absolute -z-10 inset-0 animate-float">
                     <div
                       className={`absolute inset-0 bg-gradient-to-b ${plan.glowColor} opacity-20 blur-2xl`}
                     />
+                    <div className="absolute inset-0 opacity-10">
+                      <Image
+                        src="/tr.jpg"
+                        alt="texture"
+                        fill
+                        className="object-cover mix-blend-overlay"
+                      />
+                    </div>
                   </div>
                 </div>
               ))}
@@ -504,14 +534,11 @@ export default function LandingPage() {
           </div>
         </div>
 
-        {/* Footer Section - Add this after the Pricing Section */}
         <div className="relative py-24 overflow-hidden">
-          {/* Gradient Background */}
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#2D6B66]/10 to-[#2D6B66]/20" />
 
           <div className="relative max-w-[1400px] mx-auto px-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-              {/* Quick Link */}
               <div>
                 <h3 className="text-xl font-semibold mb-6 bg-gradient-to-r from-[#2D6B66] to-teal-400 bg-clip-text text-transparent">
                   Quick Link
@@ -544,7 +571,6 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              {/* Episodes */}
               <div>
                 <h3 className="text-xl font-semibold mb-6 bg-gradient-to-r from-[#2D6B66] to-teal-400 bg-clip-text text-transparent">
                   Episodes
@@ -577,7 +603,6 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              {/* Social Media */}
               <div>
                 <h3 className="text-xl font-semibold mb-6 bg-gradient-to-r from-[#2D6B66] to-teal-400 bg-clip-text text-transparent">
                   Social Media
@@ -610,7 +635,6 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              {/* Stay Updated */}
               <div>
                 <h3 className="text-xl font-semibold mb-6 bg-gradient-to-r from-[#2D6B66] to-teal-400 bg-clip-text text-transparent">
                   Stay Updated
@@ -632,11 +656,10 @@ export default function LandingPage() {
               </div>
             </div>
 
-            {/* Copyright */}
             <div className="mt-16 pt-8 border-t border-gray-200/10">
               <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                 <p className="text-gray-600 text-sm">
-                  Copyright © 2023 TalkCast Podcasts.
+                  Copyright © 2025 TalkCast Podcasts.
                 </p>
                 <div className="flex items-center gap-8">
                   <Link
