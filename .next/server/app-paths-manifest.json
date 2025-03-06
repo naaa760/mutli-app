@@ -1,4 +1,4 @@
 {
-  "/(root)/page": "app/(root)/page.js",
-  "/(root)/create-podcast/page": "app/(root)/create-podcast/page.js"
+  "/(marketing)/landing/page": "app/(marketing)/landing/page.js",
+  "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js"
 }

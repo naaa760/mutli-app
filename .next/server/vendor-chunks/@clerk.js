@@ -98,6 +98,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "(ssr)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   AuthenticateWithRedirectCallback: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.AuthenticateWithRedirectCallback),\n/* harmony export */   ClerkLoaded: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.ClerkLoaded),\n/* harmony export */   ClerkLoading: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.ClerkLoading),\n/* harmony export */   MultisessionAppSupport: () => (/* reexport safe */ _clerk_clerk_react_internal__WEBPACK_IMPORTED_MODULE_1__.MultisessionAppSupport),\n/* harmony export */   Protect: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.Protect),\n/* harmony export */   RedirectToCreateOrganization: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.RedirectToCreateOrganization),\n/* harmony export */   RedirectToOrganizationProfile: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.RedirectToOrganizationProfile),\n/* harmony export */   RedirectToSignIn: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.RedirectToSignIn),\n/* harmony export */   RedirectToSignUp: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.RedirectToSignUp),\n/* harmony export */   RedirectToUserProfile: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.RedirectToUserProfile),\n/* harmony export */   SignedIn: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.SignedIn),\n/* harmony export */   SignedOut: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.SignedOut)\n/* harmony export */ });\n/* harmony import */ var _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @clerk/clerk-react */ \"(ssr)/./node_modules/@clerk/clerk-react/dist/index.mjs\");\n/* harmony import */ var _clerk_clerk_react_internal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @clerk/clerk-react/internal */ \"(ssr)/./node_modules/@clerk/clerk-react/dist/internal.mjs\");\n/* __next_internal_client_entry_do_not_use__ AuthenticateWithRedirectCallback,ClerkLoaded,ClerkLoading,MultisessionAppSupport,Protect,RedirectToCreateOrganization,RedirectToOrganizationProfile,RedirectToSignIn,RedirectToSignUp,RedirectToUserProfile,SignedIn,SignedOut auto */ \n\n //# sourceMappingURL=controlComponents.js.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvQGNsZXJrL25leHRqcy9kaXN0L2VzbS9jbGllbnQtYm91bmRhcnkvY29udHJvbENvbXBvbmVudHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7b1JBY087QUFFZ0MiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wb2RjYXN0ci8uLi8uLi8uLi9zcmMvY2xpZW50LWJvdW5kYXJ5L2NvbnRyb2xDb21wb25lbnRzLnRzP2U1YjYiXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBjbGllbnQnO1xuXG5leHBvcnQge1xuICBDbGVya0xvYWRlZCxcbiAgQ2xlcmtMb2FkaW5nLFxuICBTaWduZWRPdXQsXG4gIFNpZ25lZEluLFxuICBQcm90ZWN0LFxuICBSZWRpcmVjdFRvU2lnbkluLFxuICBSZWRpcmVjdFRvU2lnblVwLFxuICBSZWRpcmVjdFRvVXNlclByb2ZpbGUsXG4gIEF1dGhlbnRpY2F0ZVdpdGhSZWRpcmVjdENhbGxiYWNrLFxuICBSZWRpcmVjdFRvQ3JlYXRlT3JnYW5pemF0aW9uLFxuICBSZWRpcmVjdFRvT3JnYW5pemF0aW9uUHJvZmlsZSxcbn0gZnJvbSAnQGNsZXJrL2NsZXJrLXJlYWN0JztcblxuZXhwb3J0IHsgTXVsdGlzZXNzaW9uQXBwU3VwcG9ydCB9IGZyb20gJ0BjbGVyay9jbGVyay1yZWFjdC9pbnRlcm5hbCc7XG4iXSwibmFtZXMiOlsiQ2xlcmtMb2FkZWQiLCJDbGVya0xvYWRpbmciLCJTaWduZWRPdXQiLCJTaWduZWRJbiIsIlByb3RlY3QiLCJSZWRpcmVjdFRvU2lnbkluIiwiUmVkaXJlY3RUb1NpZ25VcCIsIlJlZGlyZWN0VG9Vc2VyUHJvZmlsZSIsIkF1dGhlbnRpY2F0ZVdpdGhSZWRpcmVjdENhbGxiYWNrIiwiUmVkaXJlY3RUb0NyZWF0ZU9yZ2FuaXphdGlvbiIsIlJlZGlyZWN0VG9Pcmdhbml6YXRpb25Qcm9maWxlIiwiTXVsdGlzZXNzaW9uQXBwU3VwcG9ydCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js\n");
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   EmailLinkErrorCode: () => (/* reexport safe */ _clerk_clerk_react_errors__WEBPACK_IMPORTED_MODULE_1__.EmailLinkErrorCode),\n/* harmony export */   isClerkAPIResponseError: () => (/* reexport safe */ _clerk_clerk_react_errors__WEBPACK_IMPORTED_MODULE_1__.isClerkAPIResponseError),\n/* harmony export */   isEmailLinkError: () => (/* reexport safe */ _clerk_clerk_react_errors__WEBPACK_IMPORTED_MODULE_1__.isEmailLinkError),\n/* harmony export */   isKnownError: () => (/* reexport safe */ _clerk_clerk_react_errors__WEBPACK_IMPORTED_MODULE_1__.isKnownError),\n/* harmony export */   isMetamaskError: () => (/* reexport safe */ _clerk_clerk_react_errors__WEBPACK_IMPORTED_MODULE_1__.isMetamaskError),\n/* harmony export */   useAuth: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.useAuth),\n/* harmony export */   useClerk: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.useClerk),\n/* harmony export */   useEmailLink: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.useEmailLink),\n/* harmony export */   useOrganization: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.useOrganization),\n/* harmony export */   useOrganizationList: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.useOrganizationList),\n/* harmony export */   useSession: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.useSession),\n/* harmony export */   useSessionList: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.useSessionList),\n/* harmony export */   useSignIn: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.useSignIn),\n/* harmony export */   useSignUp: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.useSignUp),\n/* harmony export */   useUser: () => (/* reexport safe */ _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__.useUser)\n/* harmony export */ });\n/* harmony import */ var _clerk_clerk_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @clerk/clerk-react */ \"(ssr)/./node_modules/@clerk/clerk-react/dist/index.mjs\");\n/* harmony import */ var _clerk_clerk_react_errors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @clerk/clerk-react/errors */ \"(ssr)/./node_modules/@clerk/clerk-react/dist/errors.mjs\");\n/* __next_internal_client_entry_do_not_use__ EmailLinkErrorCode,isClerkAPIResponseError,isEmailLinkError,isKnownError,isMetamaskError,useAuth,useClerk,useEmailLink,useOrganization,useOrganizationList,useSession,useSessionList,useSignIn,useSignUp,useUser auto */ \n\n //# sourceMappingURL=hooks.js.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvQGNsZXJrL25leHRqcy9kaXN0L2VzbS9jbGllbnQtYm91bmRhcnkvaG9va3MuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7c1FBYU87QUFRQSIsInNvdXJjZXMiOlsid2VicGFjazovL3BvZGNhc3RyLy4uLy4uLy4uL3NyYy9jbGllbnQtYm91bmRhcnkvaG9va3MudHM/ZmQzOSJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIGNsaWVudCc7XG5cbmV4cG9ydCB7XG4gIHVzZUF1dGgsXG4gIHVzZUNsZXJrLFxuICB1c2VFbWFpbExpbmssXG4gIHVzZU9yZ2FuaXphdGlvbixcbiAgdXNlT3JnYW5pemF0aW9uTGlzdCxcbiAgdXNlU2Vzc2lvbixcbiAgdXNlU2Vzc2lvbkxpc3QsXG4gIHVzZVNpZ25JbixcbiAgdXNlU2lnblVwLFxuICB1c2VVc2VyLFxufSBmcm9tICdAY2xlcmsvY2xlcmstcmVhY3QnO1xuXG5leHBvcnQge1xuICBpc0NsZXJrQVBJUmVzcG9uc2VFcnJvcixcbiAgaXNFbWFpbExpbmtFcnJvcixcbiAgaXNLbm93bkVycm9yLFxuICBpc01ldGFtYXNrRXJyb3IsXG4gIEVtYWlsTGlua0Vycm9yQ29kZSxcbn0gZnJvbSAnQGNsZXJrL2NsZXJrLXJlYWN0L2Vycm9ycyc7XG4iXSwibmFtZXMiOlsidXNlQXV0aCIsInVzZUNsZXJrIiwidXNlRW1haWxMaW5rIiwidXNlT3JnYW5pemF0aW9uIiwidXNlT3JnYW5pemF0aW9uTGlzdCIsInVzZVNlc3Npb24iLCJ1c2VTZXNzaW9uTGlzdCIsInVzZVNpZ25JbiIsInVzZVNpZ25VcCIsInVzZVVzZXIiLCJpc0NsZXJrQVBJUmVzcG9uc2VFcnJvciIsImlzRW1haWxMaW5rRXJyb3IiLCJpc0tub3duRXJyb3IiLCJpc01ldGFtYXNrRXJyb3IiLCJFbWFpbExpbmtFcnJvckNvZGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js\n");
+
+/***/ }),
+
 /***/ "(ssr)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks/useEnforceCatchAllRoute.js":
 /*!**********************************************************************************************!*\
   !*** ./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks/useEnforceCatchAllRoute.js ***!
@@ -238,6 +258,68 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "(rsc)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   CreateOrganization: () => (/* binding */ e0),
+/* harmony export */   GoogleOneTap: () => (/* binding */ e1),
+/* harmony export */   OrganizationList: () => (/* binding */ e2),
+/* harmony export */   OrganizationProfile: () => (/* binding */ e3),
+/* harmony export */   OrganizationSwitcher: () => (/* binding */ e4),
+/* harmony export */   SignIn: () => (/* binding */ e5),
+/* harmony export */   SignInButton: () => (/* binding */ e6),
+/* harmony export */   SignInWithMetamaskButton: () => (/* binding */ e7),
+/* harmony export */   SignOutButton: () => (/* binding */ e8),
+/* harmony export */   SignUp: () => (/* binding */ e9),
+/* harmony export */   SignUpButton: () => (/* binding */ e10),
+/* harmony export */   UserButton: () => (/* binding */ e11),
+/* harmony export */   UserProfile: () => (/* binding */ e12)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#CreateOrganization`);
+
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#GoogleOneTap`);
+
+const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#OrganizationList`);
+
+const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#OrganizationProfile`);
+
+const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#OrganizationSwitcher`);
+
+const e5 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#SignIn`);
+
+const e6 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#SignInButton`);
+
+const e7 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#SignInWithMetamaskButton`);
+
+const e8 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#SignOutButton`);
+
+const e9 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#SignUp`);
+
+const e10 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#SignUpButton`);
+
+const e11 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#UserButton`);
+
+const e12 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/neha/mutli-app/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#UserProfile`);
+
+
+/***/ }),
+
 /***/ "(ssr)/./node_modules/@clerk/clerk-react/dist/chunk-LVLBRUHJ.mjs":
 /*!*****************************************************************!*\
   !*** ./node_modules/@clerk/clerk-react/dist/chunk-LVLBRUHJ.mjs ***!
@@ -255,6 +337,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   __privateAdd: () => (/* binding */ __privateAdd),\n/* harmony export */   __privateGet: () => (/* binding */ __privateGet),\n/* harmony export */   __privateMethod: () => (/* binding */ __privateMethod),\n/* harmony export */   __privateSet: () => (/* binding */ __privateSet)\n/* harmony export */ });\nvar __typeError = (msg) => {\n  throw TypeError(msg);\n};\nvar __accessCheck = (obj, member, msg) => member.has(obj) || __typeError(\"Cannot \" + msg);\nvar __privateGet = (obj, member, getter) => (__accessCheck(obj, member, \"read from private field\"), getter ? getter.call(obj) : member.get(obj));\nvar __privateAdd = (obj, member, value) => member.has(obj) ? __typeError(\"Cannot add the same private member more than once\") : member instanceof WeakSet ? member.add(obj) : member.set(obj, value);\nvar __privateSet = (obj, member, value, setter) => (__accessCheck(obj, member, \"write to private field\"), setter ? setter.call(obj, value) : member.set(obj, value), value);\nvar __privateMethod = (obj, member, method) => (__accessCheck(obj, member, \"access private method\"), method);\n\n\n//# sourceMappingURL=chunk-OANWQR3B.mjs.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvQGNsZXJrL2NsZXJrLXJlYWN0L2Rpc3QvY2h1bmstT0FOV1FSM0IubWpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQU9FO0FBQ0YiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wb2RjYXN0ci8uL25vZGVfbW9kdWxlcy9AY2xlcmsvY2xlcmstcmVhY3QvZGlzdC9jaHVuay1PQU5XUVIzQi5tanM/MjRmNiJdLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgX190eXBlRXJyb3IgPSAobXNnKSA9PiB7XG4gIHRocm93IFR5cGVFcnJvcihtc2cpO1xufTtcbnZhciBfX2FjY2Vzc0NoZWNrID0gKG9iaiwgbWVtYmVyLCBtc2cpID0+IG1lbWJlci5oYXMob2JqKSB8fCBfX3R5cGVFcnJvcihcIkNhbm5vdCBcIiArIG1zZyk7XG52YXIgX19wcml2YXRlR2V0ID0gKG9iaiwgbWVtYmVyLCBnZXR0ZXIpID0+IChfX2FjY2Vzc0NoZWNrKG9iaiwgbWVtYmVyLCBcInJlYWQgZnJvbSBwcml2YXRlIGZpZWxkXCIpLCBnZXR0ZXIgPyBnZXR0ZXIuY2FsbChvYmopIDogbWVtYmVyLmdldChvYmopKTtcbnZhciBfX3ByaXZhdGVBZGQgPSAob2JqLCBtZW1iZXIsIHZhbHVlKSA9PiBtZW1iZXIuaGFzKG9iaikgPyBfX3R5cGVFcnJvcihcIkNhbm5vdCBhZGQgdGhlIHNhbWUgcHJpdmF0ZSBtZW1iZXIgbW9yZSB0aGFuIG9uY2VcIikgOiBtZW1iZXIgaW5zdGFuY2VvZiBXZWFrU2V0ID8gbWVtYmVyLmFkZChvYmopIDogbWVtYmVyLnNldChvYmosIHZhbHVlKTtcbnZhciBfX3ByaXZhdGVTZXQgPSAob2JqLCBtZW1iZXIsIHZhbHVlLCBzZXR0ZXIpID0+IChfX2FjY2Vzc0NoZWNrKG9iaiwgbWVtYmVyLCBcIndyaXRlIHRvIHByaXZhdGUgZmllbGRcIiksIHNldHRlciA/IHNldHRlci5jYWxsKG9iaiwgdmFsdWUpIDogbWVtYmVyLnNldChvYmosIHZhbHVlKSwgdmFsdWUpO1xudmFyIF9fcHJpdmF0ZU1ldGhvZCA9IChvYmosIG1lbWJlciwgbWV0aG9kKSA9PiAoX19hY2Nlc3NDaGVjayhvYmosIG1lbWJlciwgXCJhY2Nlc3MgcHJpdmF0ZSBtZXRob2RcIiksIG1ldGhvZCk7XG5cbmV4cG9ydCB7XG4gIF9fcHJpdmF0ZUdldCxcbiAgX19wcml2YXRlQWRkLFxuICBfX3ByaXZhdGVTZXQsXG4gIF9fcHJpdmF0ZU1ldGhvZFxufTtcbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWNodW5rLU9BTldRUjNCLm1qcy5tYXAiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/@clerk/clerk-react/dist/chunk-OANWQR3B.mjs\n");
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/@clerk/clerk-react/dist/errors.mjs":
+/*!*********************************************************!*\
+  !*** ./node_modules/@clerk/clerk-react/dist/errors.mjs ***!
+  \*********************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   EmailLinkErrorCode: () => (/* reexport safe */ _clerk_shared_error__WEBPACK_IMPORTED_MODULE_1__.EmailLinkErrorCode),\n/* harmony export */   isClerkAPIResponseError: () => (/* reexport safe */ _clerk_shared_error__WEBPACK_IMPORTED_MODULE_1__.isClerkAPIResponseError),\n/* harmony export */   isEmailLinkError: () => (/* reexport safe */ _clerk_shared_error__WEBPACK_IMPORTED_MODULE_1__.isEmailLinkError),\n/* harmony export */   isKnownError: () => (/* reexport safe */ _clerk_shared_error__WEBPACK_IMPORTED_MODULE_1__.isKnownError),\n/* harmony export */   isMetamaskError: () => (/* reexport safe */ _clerk_shared_error__WEBPACK_IMPORTED_MODULE_1__.isMetamaskError)\n/* harmony export */ });\n/* harmony import */ var _chunk_OANWQR3B_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./chunk-OANWQR3B.mjs */ \"(ssr)/./node_modules/@clerk/clerk-react/dist/chunk-OANWQR3B.mjs\");\n/* harmony import */ var _clerk_shared_error__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @clerk/shared/error */ \"(ssr)/./node_modules/@clerk/shared/dist/error.mjs\");\n\n\n// src/errors.ts\n\n\n//# sourceMappingURL=errors.mjs.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvQGNsZXJrL2NsZXJrLXJlYWN0L2Rpc3QvZXJyb3JzLm1qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQThCOztBQUU5QjtBQU82QjtBQU8zQjtBQUNGIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcG9kY2FzdHIvLi9ub2RlX21vZHVsZXMvQGNsZXJrL2NsZXJrLXJlYWN0L2Rpc3QvZXJyb3JzLm1qcz9iM2RjIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIi4vY2h1bmstT0FOV1FSM0IubWpzXCI7XG5cbi8vIHNyYy9lcnJvcnMudHNcbmltcG9ydCB7XG4gIGlzQ2xlcmtBUElSZXNwb25zZUVycm9yLFxuICBpc0VtYWlsTGlua0Vycm9yLFxuICBpc0tub3duRXJyb3IsXG4gIGlzTWV0YW1hc2tFcnJvcixcbiAgRW1haWxMaW5rRXJyb3JDb2RlXG59IGZyb20gXCJAY2xlcmsvc2hhcmVkL2Vycm9yXCI7XG5leHBvcnQge1xuICBFbWFpbExpbmtFcnJvckNvZGUsXG4gIGlzQ2xlcmtBUElSZXNwb25zZUVycm9yLFxuICBpc0VtYWlsTGlua0Vycm9yLFxuICBpc0tub3duRXJyb3IsXG4gIGlzTWV0YW1hc2tFcnJvclxufTtcbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWVycm9ycy5tanMubWFwIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/@clerk/clerk-react/dist/errors.mjs\n");
 
 /***/ }),
 
