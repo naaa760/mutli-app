@@ -380,22 +380,25 @@ export default function LandingPage() {
         </div>
 
         {/* Pricing Section */}
-        <div className="py-32 relative">
-          <div className="max-w-[1400px] mx-auto px-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="py-24 relative">
+          <div className="max-w-[1200px] mx-auto px-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
               {[
                 {
                   name: "STANDARD",
                   price: "Free",
                   period: "• Personal",
-                  description: "Ideal for individuals new to Fineka",
+                  description: "Ideal for individuals new to Fineva",
                   features: [
                     "Limited transaction insights",
                     "Core financial management features",
                     "Basic customer support",
                   ],
-                  bgColor: "bg-[#1C1C1C]",
-                  textColor: "text-white",
+                  bgColor: "bg-gradient-to-br from-black/20 to-[#2D6B66]/10",
+                  borderGradient: "from-[#2D6B66]/20 to-white/5",
+                  glowColor: "from-[#2D6B66]/5 via-transparent to-transparent",
+                  rotate: "-rotate-6",
+                  translateY: "md:translate-y-12",
                 },
                 {
                   name: "PREMIUM",
@@ -407,8 +410,11 @@ export default function LandingPage() {
                     "Priority customer support",
                     "Access to premium features",
                   ],
-                  bgColor: "bg-[#4A4A4A]",
-                  textColor: "text-white",
+                  bgColor: "bg-gradient-to-br from-black/30 to-[#2D6B66]/20",
+                  borderGradient: "from-[#2D6B66]/30 to-white/10",
+                  glowColor: "from-[#2D6B66]/10 via-transparent to-transparent",
+                  rotate: "rotate-0",
+                  translateY: "md:translate-y-0",
                 },
                 {
                   name: "ENTERPRISE",
@@ -420,52 +426,240 @@ export default function LandingPage() {
                     "Dedicated account manager",
                     "Multi-user access",
                   ],
-                  bgColor: "bg-white",
-                  textColor: "text-black",
+                  bgColor: "bg-gradient-to-br from-black/40 to-[#2D6B66]/30",
+                  borderGradient: "from-[#2D6B66]/40 to-white/20",
+                  glowColor: "from-[#2D6B66]/15 via-transparent to-transparent",
+                  rotate: "rotate-6",
+                  translateY: "md:translate-y-12",
                 },
               ].map((plan, index) => (
                 <div
                   key={index}
-                  className={`group relative overflow-hidden rounded-[32px] transition-all duration-500 hover:-translate-y-2 ${plan.bgColor} ${plan.textColor}`}
+                  className={`group relative ${plan.rotate} ${plan.translateY} transition-all duration-700 hover:rotate-0`}
                 >
-                  <div className="p-8">
-                    <div className="mb-12">
-                      <div className="flex items-center gap-2 mb-1">
-                        <span className="text-sm">★</span>
-                        <h3 className="text-lg font-medium">{plan.name}</h3>
-                      </div>
-                      <div className="flex items-baseline gap-1 mb-2">
-                        <span className="text-xl font-medium">
-                          {plan.price}
-                        </span>
-                        <span className="text-sm opacity-60">
-                          {plan.period}
-                        </span>
-                      </div>
-                      <p className="text-sm opacity-60">{plan.description}</p>
-                    </div>
+                  {/* Glow Effect */}
+                  <div
+                    className={`absolute -top-20 -left-20 w-[140%] h-[140%] bg-gradient-to-b ${plan.glowColor} opacity-0 group-hover:opacity-100 transition-opacity duration-700 blur-3xl`}
+                  />
 
-                    <div className="space-y-4 mb-8">
-                      {plan.features.map((feature, i) => (
-                        <p key={i} className="text-sm opacity-80">
-                          {feature}
+                  <div
+                    className={`relative overflow-hidden rounded-[32px] transition-all duration-500 hover:-translate-y-2 backdrop-blur-sm border border-white/10 hover:scale-105`}
+                  >
+                    <div
+                      className={`absolute inset-0 bg-gradient-to-b ${plan.borderGradient} opacity-50`}
+                    />
+
+                    <div className={`relative ${plan.bgColor} p-8`}>
+                      <div className="mb-10">
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className="text-white/60 text-sm">★</span>
+                          <h3 className="text-white text-lg font-medium tracking-wide">
+                            {plan.name}
+                          </h3>
+                        </div>
+                        <div className="flex items-baseline gap-1 mb-2">
+                          <span className="text-white text-xl font-medium tracking-tight">
+                            {plan.price}
+                          </span>
+                          <span className="text-white/60 text-xs">
+                            {plan.period}
+                          </span>
+                        </div>
+                        <p className="text-white/60 text-xs leading-relaxed">
+                          {plan.description}
                         </p>
-                      ))}
-                    </div>
+                      </div>
 
-                    <button className="group/btn relative w-[44px] h-[44px] rounded-full border border-current transition-all duration-300 hover:w-[140px]">
-                      <span className="absolute left-3 top-1/2 -translate-y-1/2">
-                        →
-                      </span>
-                      <span className="absolute left-12 top-1/2 -translate-y-1/2 whitespace-nowrap opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300">
-                        Get Started
-                      </span>
-                    </button>
+                      <div className="space-y-3 mb-8">
+                        {plan.features.map((feature, i) => (
+                          <div key={i} className="flex items-center gap-2">
+                            <span className="w-1 h-1 rounded-full bg-white/40" />
+                            <p className="text-white/80 text-xs font-light">
+                              {feature}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+
+                      <button className="group/btn relative w-[40px] h-[40px] rounded-full border border-white/20 transition-all duration-300 hover:w-[120px] hover:border-white/40">
+                        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-white/60 group-hover/btn:text-white">
+                          →
+                        </span>
+                        <span className="absolute left-10 top-1/2 -translate-y-1/2 whitespace-nowrap opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 text-white text-sm">
+                          Get Started
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Add floating animation */}
+                  <div className="absolute -z-10 inset-0 animate-float">
+                    <div
+                      className={`absolute inset-0 bg-gradient-to-b ${plan.glowColor} opacity-20 blur-2xl`}
+                    />
                   </div>
                 </div>
               ))}
             </div>
           </div>
+        </div>
+
+        {/* Footer Section - Add this after the Pricing Section */}
+        <div className="relative py-24 overflow-hidden">
+          {/* Gradient Background */}
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#2D6B66]/10 to-[#2D6B66]/20" />
+
+          <div className="relative max-w-[1400px] mx-auto px-8">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+              {/* Quick Link */}
+              <div>
+                <h3 className="text-xl font-semibold mb-6 bg-gradient-to-r from-[#2D6B66] to-teal-400 bg-clip-text text-transparent">
+                  Quick Link
+                </h3>
+                <div className="space-y-4">
+                  <Link
+                    href="/"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    href="/about"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    About
+                  </Link>
+                  <Link
+                    href="/episodes"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    Episodes
+                  </Link>
+                  <Link
+                    href="/pricing"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    Pricing Plan
+                  </Link>
+                </div>
+              </div>
+
+              {/* Episodes */}
+              <div>
+                <h3 className="text-xl font-semibold mb-6 bg-gradient-to-r from-[#2D6B66] to-teal-400 bg-clip-text text-transparent">
+                  Episodes
+                </h3>
+                <div className="space-y-4">
+                  <Link
+                    href="/category/education"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    Education
+                  </Link>
+                  <Link
+                    href="/category/horror"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    Horror
+                  </Link>
+                  <Link
+                    href="/category/technology"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    Technology
+                  </Link>
+                  <Link
+                    href="/category/business"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    Business
+                  </Link>
+                </div>
+              </div>
+
+              {/* Social Media */}
+              <div>
+                <h3 className="text-xl font-semibold mb-6 bg-gradient-to-r from-[#2D6B66] to-teal-400 bg-clip-text text-transparent">
+                  Social Media
+                </h3>
+                <div className="space-y-4">
+                  <a
+                    href="#"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    Instagram
+                  </a>
+                  <a
+                    href="#"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    LinkedIn
+                  </a>
+                  <a
+                    href="#"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    Facebook
+                  </a>
+                  <a
+                    href="#"
+                    className="block text-gray-600 hover:text-[#2D6B66] transition-colors"
+                  >
+                    Twitter
+                  </a>
+                </div>
+              </div>
+
+              {/* Stay Updated */}
+              <div>
+                <h3 className="text-xl font-semibold mb-6 bg-gradient-to-r from-[#2D6B66] to-teal-400 bg-clip-text text-transparent">
+                  Stay Updated
+                </h3>
+                <p className="text-gray-600 mb-6">
+                  Subscribe to our newsletter for the latest podcast updates,
+                  news, and exclusive offers.
+                </p>
+                <div className="relative">
+                  <input
+                    type="email"
+                    placeholder="Enter your e-mail here"
+                    className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 text-gray-700 placeholder-gray-500 focus:outline-none focus:border-[#2D6B66] transition-colors"
+                  />
+                  <button className="absolute right-2 top-1/2 -translate-y-1/2 px-4 py-1.5 bg-[#2D6B66] text-white rounded-md hover:bg-[#245652] transition-colors text-sm">
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Copyright */}
+            <div className="mt-16 pt-8 border-t border-gray-200/10">
+              <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+                <p className="text-gray-600 text-sm">
+                  Copyright © 2023 TalkCast Podcasts.
+                </p>
+                <div className="flex items-center gap-8">
+                  <Link
+                    href="/privacy"
+                    className="text-gray-600 hover:text-[#2D6B66] text-sm transition-colors"
+                  >
+                    Privacy Policy
+                  </Link>
+                  <Link
+                    href="/terms"
+                    className="text-gray-600 hover:text-[#2D6B66] text-sm transition-colors"
+                  >
+                    Terms of Service
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Decorative Elements */}
+          <div className="absolute bottom-0 left-0 w-full h-[400px] bg-gradient-to-t from-[#2D6B66]/5 to-transparent pointer-events-none" />
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-[#2D6B66]/10 rounded-full blur-3xl" />
+          <div className="absolute -bottom-40 -right-40 w-80 h-80 bg-[#2D6B66]/10 rounded-full blur-3xl" />
         </div>
       </div>
     </div>
