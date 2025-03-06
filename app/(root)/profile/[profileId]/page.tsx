@@ -31,7 +31,16 @@ const ProfilePage = ({
       </h1>
       <div className="mt-6 flex flex-col gap-6 max-md:items-center md:flex-row">
         <ProfileCard
-          podcastData={podcastsData!}
+          podcastData={{
+            ...podcastsData,
+            podcasts: podcastsData.podcasts.map((podcast) => ({
+              ...podcast,
+              audioStorageId: podcast.audioStorageId || null,
+              audioUrl: podcast.audioUrl || null,
+              imageUrl: podcast.imageUrl || null,
+              imageStorageId: podcast.imageStorageId || null,
+            })),
+          }}
           imageUrl={user?.imageUrl!}
           userFirstName={user?.name!}
         />
